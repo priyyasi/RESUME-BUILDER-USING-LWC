@@ -1,0 +1,9 @@
+<template>
+    <c-personal-information onupdatepi={handleUpdatePI}></c-personal-information>
+    <c-education-detail onupdateeducations={handleUpdateEducation}></c-education-detail>
+    <c-work-experience onupdateworkexperiences={handleUpdateWorkExperiences}></c-work-experience>
+    <c-skills onupdateskills={handleUpdateSkills}></c-skills>
+    <c-summary onupdatesummary={handleUpdateSummary}></c-summary>
+    <!-- 'on' + custom event name given in the particular js file -->
+     <c-preview-resume personal-info={personalInfo} summary={summary} skills={skills} educations={educations} work-experiences={workExperiences}></c-preview-resume>
+</template>

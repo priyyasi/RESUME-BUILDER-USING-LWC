@@ -1,0 +1,43 @@
+<template>
+    <div>
+        <h2 class="slds-text-heading_medium">{personalInfo.fullName}</h2>
+        <p>{personalInfo.email} | {personalInfo.phone} | {personalInfo.address}</p>
+    </div>
+    <hr class="slds-m-vertical_small" />
+
+    <div>
+        <h2 class="slds-text-heading_small slds-m-bottom_small">Education</h2>
+        <template for:each={educations} for:item="education" for:index="index">
+            <div key={education.id}>
+                <p><strong>{education.degree}</strong></p>
+                <p>{education.institute}</p>
+                <p>{education.year}</p>
+            </div>
+        </template>
+    </div>
+    <hr class="slds-m-vertical_small" />
+
+    <div>
+        <h2 class="slds-text-heading_small slds-m-bottom_small">Work Experience</h2>
+        <template for:each={workExperiences} for:item="workExperience" for:index="index">
+            <div key={workExperience.id}>
+                <p><strong>{workExperience.title}</strong>, {workExperience.name}</p>
+                <p>{workExperience.startDate} - {workExperience.endDate}</p>
+            </div>
+        </template>
+    </div>
+    <hr class="slds-m-vertical_small" />
+
+    <div>
+        <h2 class="slds-text-heading_small slds-m-bottom_small">Skills</h2>
+        <template for:each={skills} for:item="skill" for:index="index">
+            <li key={skill.id}>{skill.name}</li>
+        </template>
+    </div>
+    <hr class="slds-m-vertical_small" />
+
+    <div>
+        <h2 class="slds-text-heading_small slds-m-bottom_small">Summary</h2>
+        <p>{summary}</p>
+    </div>
+</template>
