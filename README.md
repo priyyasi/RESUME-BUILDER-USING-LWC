@@ -1,18 +1,15 @@
-# Salesforce DX Project: Next Steps
+# Dynamic Resume Builder with LWC
+Craft your perfect resume with ease! This project showcases a **responsive Resume Builder application**, meticulously developed from the ground up using **Salesforce Lightning Web Components (LWC)**. <br/>	
+It offers an intuitive and seamless experience for creating professional resumes. Users can effortlessly input their personal details, educational background, work experience, and key skills. <br/>
+A standout feature is the **live, real-time preview** that updates dynamically as you type, providing instant feedback on your resume's appearance. <br/>
+Engineered with a **modular and component-based architecture**, makes it an invaluable study for grasping best practices in LWC development. <br/>
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+**Features**:
 
-## How Do You Plan to Deploy Your Changes?
+• **Intuitive Interface**: Easily input your personal information, education, work experience, and skills.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+• **Live Preview**: Watch your resume come to life with an instant, real-time preview as you type.
 
-## Configure Your Salesforce DX Project
+• **Modular Design**: Built with a clean, component-based architecture for easy understanding and future enhancements.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+This builder serves as an excellent resource for anyone aiming to deepen their understanding of LWC development through a practical, real-world application.
