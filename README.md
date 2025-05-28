@@ -13,3 +13,14 @@ Engineered with a **modular and component-based architecture**, makes it an inva
 • **Modular Design**: Built with a clean, component-based architecture for easy understanding and future enhancements.
 
 This builder serves as an excellent resource for anyone aiming to deepen their understanding of LWC development through a practical, real-world application.
+
+## Example from LWC Interface
+
+**Initial** 
+![Image 1](https://github.com/user-attachments/assets/fa188bb9-d242-46b4-90a2-fcbd01852759)
+
+**In-between writing (showing live changes)**
+![Image 2](https://github.com/user-attachments/assets/7062dcfe-4b65-4b30-828a-37e1215da33f)
+
+**After entering details (preview)**
+![Image 3](https://github.com/user-attachments/assets/64b67199-6f64-4b87-82d8-86682acffd44)
