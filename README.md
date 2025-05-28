@@ -1,8 +1,8 @@
 # Dynamic Resume Builder with LWC
-Craft your perfect resume with ease! This project showcases a responsive Resume Builder application, meticulously developed from the ground up using Salesforce Lightning Web Components (LWC). 
-It offers an intuitive and seamless experience for creating professional resumes. Users can effortlessly input their personal details, educational background, work experience, and key skills. 
-A standout feature is the live, real-time preview that updates dynamically as you type, providing instant feedback on your resume's appearance. 
-Engineered with a modular and component-based architecture, makes it an invaluable study for grasping best practices in LWC development.
+Craft your perfect resume with ease! This project showcases a **responsive Resume Builder application**, meticulously developed from the ground up using **Salesforce Lightning Web Components (LWC)**. <br/>	
+It offers an intuitive and seamless experience for creating professional resumes. Users can effortlessly input their personal details, educational background, work experience, and key skills. <br/>
+A standout feature is the **live, real-time preview** that updates dynamically as you type, providing instant feedback on your resume's appearance. <br/>
+Engineered with a **modular and component-based architecture**, makes it an invaluable study for grasping best practices in LWC development. <br/>
 
 **Features**:
 
